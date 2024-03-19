@@ -16,11 +16,16 @@ for(let i = 0; i < arrayLetras.length; i++){
     if(vogais.includes(arrayLetras[i])){
         arrayVogais.push(arrayLetras[i]);
     }
-    else(consoantes.includes(arrayLetras[i])){
-        arrayConsoantes.push(arrayLetras[i])
+}
+for(let i = 0; i < arrayLetras.length; i++){
+    if(consoantes.includes(arrayLetras[i])){
+        arrayConsoantes.push(arrayLetras[i]);
     }
+  
 }
 
 console.log("Texto original: ", texto);
 console.log("Vogais encontradas: ", arrayVogais.toString());
 console.log("Total de vogais: " + arrayVogais.length)
+console.log("Vogais encontradas: ", arrayConsoantes.toString());
+console.log("Total de consoantes: " + arrayConsoantes.length)
